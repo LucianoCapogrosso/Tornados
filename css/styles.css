@@ -43,8 +43,7 @@ h2 {
 .navbar-img {
 	padding-right: 1rem;
 	padding-left: 0.5rem;
-	height: 5%;
-	width: 5%;
+	width: 100px;
 }
 .download-button {
 		margin: 5% 3% 5%  0;
