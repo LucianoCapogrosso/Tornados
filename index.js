@@ -39,7 +39,7 @@ for ( var i =0 ; i <= long ; i++) {
 imagen[i].src = arraydatos[item][i];
 }
 }
-function gallerygenerator() {
+function galleryGenerator() {
  
   let item = yearsel.value;
   let long = arraydatos[item].length;
