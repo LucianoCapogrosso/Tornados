@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="css/styles.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
   <script type="text/javascript" src="index.js"></script>
+  
 
 
 </head>
@@ -34,7 +35,7 @@
  <div class="collapse navbar-collapse " id="navbarSupportedContent">
     <ul class="navbar-nav ms-auto">
       <li class="nav-item">
-        <a class="nav-link" href="index.html">Inicio</a>    
+        <a class="nav-link" href="Index.html">Inicio</a>    
     </li>
         <li class="nav-item">
             <a class="nav-link" href="Noticias.html">Noticias</a>    
@@ -65,22 +66,44 @@
       <h3>Selecione a imagem para ampliar</h3>
       <select onchange="cambia()" id="yearsel" class="form-select" aria-label="Default select example">
         <option selected>Selecione ano</option>
-        <option value="2023">2023</option>
-        <option value="2022">2022</option>
-        <option value="2021">2021</option>
+        <option value="0" selected>2023</option>
+        <option value="1">2022</option>
+        <option value="2">2021</option>
       </select>
-            <h1></h1>
-      <div id='gallery-items'>
-      </div>
-      <!--<img src="images/foto1.jpg" class="img-thumbnail rounded" alt="...">
-      <img src="images/foto2.jpg" class="img-thumbnail" alt="..."> -->
+           
+            <!-- <Carrousel -->
 
+                <div id="carouselExample" class="carousel slide" >
+                  <div class="carousel-inner" id='gallery-items'>
+                    <div class="carousel-item active" > 
+                    
+                    <div class="col-12 col-lg-12 col-md-12 col-sm-12">
+                        
+                      <img name="active" class="d-block w-50 img-thumbnail rounded float-start" src="./images/Tornado.jpg" alt="demo" onclick="expandPic(this);">
+                      <img name="active" class="d-block w-50 img-thumbnail rounded float-start" src="./images/Tornado.jpg" alt="demo" onclick="expandPic(this);">
+                      <img name="active" class="d-block w-50 img-thumbnail rounded float-start" src="./images/Tornado.jpg" alt="demo" onclick="expandPic(this);">
+                      <img name="active" class="d-block w-50 img-thumbnail rounded float-start" src="./images/Tornado.jpg" alt="demo" onclick="expandPic(this);">
+                    </div> 
+                    
+                    </div>
+                    
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev" >
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next" >
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+              </div>
+            
+    
       </div>
      	<div class="col-lg-6">
         <!-- The expanding image container -->
             <img id="expandedImg" class="rounded" style="width:700px">
-      <!--<img class="title-image" src="images/foto5.jpg" alt="principal"> -->
-    	
+          	
       </div>
      </div>
     </div>
@@ -98,9 +121,8 @@
   </footer>
   <script>
 
-  
-    doPortItem(1)
-    
+      gallerygenerator();
+
     </script> 
 
 </body>
