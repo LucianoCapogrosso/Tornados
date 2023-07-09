@@ -1,0 +1,31 @@
+C:\data\data\Tindog\test\images\2021
+C:\data\data\Tindog\test\images\2022
+C:\data\data\Tindog\test\images\2023
+C:\data\data\Tindog\test\images\foto1.jpg
+C:\data\data\Tindog\test\images\foto2.jpg
+C:\data\data\Tindog\test\images\foto3.jpg
+C:\data\data\Tindog\test\images\foto4.jpg
+C:\data\data\Tindog\test\images\foto5.jpg
+C:\data\data\Tindog\test\images\list.txt
+C:\data\data\Tindog\test\images\principal.jpg
+C:\data\data\Tindog\test\images\prueba-modified.png
+C:\data\data\Tindog\test\images\SJR X TORNADOS-1.jpg
+C:\data\data\Tindog\test\images\SJR X TORNADOS-10.jpg
+C:\data\data\Tindog\test\images\SJR X TORNADOS-2.jpg
+C:\data\data\Tindog\test\images\SJR X TORNADOS-3.jpg
+C:\data\data\Tindog\test\images\SJR X TORNADOS-4.jpg
+C:\data\data\Tindog\test\images\SJR X TORNADOS-5.jpg
+C:\data\data\Tindog\test\images\SJR X TORNADOS-6.jpg
+C:\data\data\Tindog\test\images\SJR X TORNADOS-7.jpg
+C:\data\data\Tindog\test\images\SJR X TORNADOS-8.jpg
+C:\data\data\Tindog\test\images\SJR X TORNADOS-9.jpg
+C:\data\data\Tindog\test\images\Tornado.jpg
+C:\data\data\Tindog\test\images\2022\SJR X TORNADOS-5.jpg
+C:\data\data\Tindog\test\images\2022\SJR X TORNADOS-6.jpg
+C:\data\data\Tindog\test\images\2022\SJR X TORNADOS-7.jpg
+C:\data\data\Tindog\test\images\2022\SJR X TORNADOS-8.jpg
+C:\data\data\Tindog\test\images\2022\SJR X TORNADOS-9.jpg
+C:\data\data\Tindog\test\images\2023\SJR X TORNADOS-1.jpg
+C:\data\data\Tindog\test\images\2023\SJR X TORNADOS-2.jpg
+C:\data\data\Tindog\test\images\2023\SJR X TORNADOS-3.jpg
+C:\data\data\Tindog\test\images\2023\SJR X TORNADOS-4.jpg
