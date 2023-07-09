@@ -64,10 +64,10 @@ function gallerygenerator() {
 
     let div = `<div class="carousel-item" >
     <div class="col-12 col-lg-12 col-md-12 col-sm-12" >
-    <img class="d-block w-50 img-thumbnail rounded float-start" src= ${img.src}  alt="demo" onclick="myFunction(this);" onerror="this.src='./images/Tornado.jpg'"/>
-    <img class="d-block w-50 img-thumbnail rounded float-start" src= ${imga.src}  alt="demo" onclick="myFunction(this);" onerror="this.src='./images/Tornado.jpg'"/>
-    <img class="d-block w-50 img-thumbnail rounded float-start" src= ${imgb.src}  alt="demo" onclick="myFunction(this);" onerror="this.src='./images/Tornado.jpg'"/>
-    <img class="d-block w-50 img-thumbnail rounded float-start" src= ${imgc.src}  alt="demo" onclick="myFunction(this);" onerror="this.src='./images/Tornado.jpg'"/>
+    <img class="d-block w-50 img-thumbnail rounded float-start" src= ${img.src}  alt="demo" onclick="expandPic(this);" onerror="this.src='./images/Tornado.jpg'"/>
+    <img class="d-block w-50 img-thumbnail rounded float-start" src= ${imga.src}  alt="demo" onclick="expandPic(this);" onerror="this.src='./images/Tornado.jpg'"/>
+    <img class="d-block w-50 img-thumbnail rounded float-start" src= ${imgb.src}  alt="demo" onclick="expandPic(this);" onerror="this.src='./images/Tornado.jpg'"/>
+    <img class="d-block w-50 img-thumbnail rounded float-start" src= ${imgc.src}  alt="demo" onclick="expandPic(this);" onerror="this.src='./images/Tornado.jpg'"/>
     </div>
     </div>`;
 
